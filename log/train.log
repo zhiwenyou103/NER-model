@@ -1,0 +1,56 @@
+2021-02-09 11:57:03,806 - log/train.log - INFO - model_type     :	idcnn
+2021-02-09 11:57:03,806 - log/train.log - INFO - num_chars      :	21011
+2021-02-09 11:57:03,806 - log/train.log - INFO - char_dim       :	100
+2021-02-09 11:57:03,806 - log/train.log - INFO - num_tags       :	17
+2021-02-09 11:57:03,806 - log/train.log - INFO - seg_dim        :	20
+2021-02-09 11:57:03,806 - log/train.log - INFO - lstm_dim       :	100
+2021-02-09 11:57:03,806 - log/train.log - INFO - batch_size     :	20.0
+2021-02-09 11:57:03,806 - log/train.log - INFO - emb_file       :	data/vec.txt
+2021-02-09 11:57:03,806 - log/train.log - INFO - clip           :	5.0
+2021-02-09 11:57:03,807 - log/train.log - INFO - dropout_keep   :	0.5
+2021-02-09 11:57:03,807 - log/train.log - INFO - optimizer      :	adam
+2021-02-09 11:57:03,807 - log/train.log - INFO - lr             :	0.001
+2021-02-09 11:57:03,807 - log/train.log - INFO - tag_schema     :	iobes
+2021-02-09 11:57:03,808 - log/train.log - INFO - pre_emb        :	False
+2021-02-09 11:57:03,808 - log/train.log - INFO - zeros          :	False
+2021-02-09 11:57:03,809 - log/train.log - INFO - lower          :	True
+2021-02-09 11:57:05,029 - log/train.log - INFO - Created model with fresh parameters.
+2021-02-09 11:57:05,394 - log/train.log - INFO - start training
+2021-02-09 11:57:17,202 - log/train.log - INFO - iteration:1 step:100/703, NER loss:14.623804
+2021-02-09 11:57:27,226 - log/train.log - INFO - iteration:1 step:200/703, NER loss:10.551256
+2021-02-09 11:57:36,458 - log/train.log - INFO - iteration:1 step:300/703, NER loss: 6.212093
+2021-02-09 11:57:46,404 - log/train.log - INFO - iteration:1 step:400/703, NER loss: 5.683251
+2021-02-09 11:57:56,733 - log/train.log - INFO - iteration:1 step:500/703, NER loss: 5.417817
+2021-02-09 11:58:06,212 - log/train.log - INFO - iteration:1 step:600/703, NER loss: 3.812152
+2021-02-09 11:58:16,341 - log/train.log - INFO - iteration:1 step:700/703, NER loss: 5.581778
+2021-02-09 11:58:16,603 - log/train.log - INFO - evaluate:dev
+2021-02-09 11:58:21,722 - log/train.log - INFO - processed 51362 tokens with 5942 phrases; found: 5683 phrases; correct: 3059.
+
+2021-02-09 11:58:21,722 - log/train.log - INFO - accuracy:  90.93%; precision:  53.83%; recall:  51.48%; FB1:  52.63
+
+2021-02-09 11:58:21,722 - log/train.log - INFO -               LOC: precision:  60.88%; recall:  77.35%; FB1:  68.14  2334
+
+2021-02-09 11:58:21,722 - log/train.log - INFO -              MISC: precision:  29.86%; recall:  18.33%; FB1:  22.72  566
+
+2021-02-09 11:58:21,722 - log/train.log - INFO -               ORG: precision:  38.80%; recall:  36.17%; FB1:  37.44  1250
+
+2021-02-09 11:58:21,722 - log/train.log - INFO -               PER: precision:  64.19%; recall:  53.42%; FB1:  58.31  1533
+
+2021-02-09 11:58:21,908 - log/train.log - INFO - new best dev f1 score:52.630
+2021-02-09 11:58:22,241 - log/train.log - INFO - model saved
+2021-02-09 11:58:22,241 - log/train.log - INFO - evaluate:test
+2021-02-09 11:58:26,663 - log/train.log - INFO - processed 46435 tokens with 5648 phrases; found: 5170 phrases; correct: 2860.
+
+2021-02-09 11:58:26,663 - log/train.log - INFO - accuracy:  90.09%; precision:  55.32%; recall:  50.64%; FB1:  52.87
+
+2021-02-09 11:58:26,663 - log/train.log - INFO -               LOC: precision:  63.78%; recall:  75.06%; FB1:  68.96  1963
+
+2021-02-09 11:58:26,663 - log/train.log - INFO -              MISC: precision:  28.54%; recall:  20.37%; FB1:  23.77  501
+
+2021-02-09 11:58:26,663 - log/train.log - INFO -               ORG: precision:  48.96%; recall:  39.67%; FB1:  43.83  1346
+
+2021-02-09 11:58:26,663 - log/train.log - INFO -               PER: precision:  59.26%; recall:  49.85%; FB1:  54.15  1360
+
+2021-02-09 11:58:26,835 - log/train.log - INFO - new best test f1 score:52.870
+2021-02-09 11:58:37,968 - log/train.log - INFO - iteration:2 step:97/703, NER loss: 3.270977
+2021-02-09 11:58:49,111 - log/train.log - INFO - iteration:2 step:197/703, NER loss: 3.547522

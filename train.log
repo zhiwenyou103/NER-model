@@ -1,0 +1,12 @@
+2021-01-05 17:34:49,565 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2021-01-05 17:35:14,368 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2021-01-05 17:36:01,720 - train.log - INFO - Reading model parameters from ckpt/ner.ckpt
+2021-02-08 17:05:26,417 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:09:39,957 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:10:08,231 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:15:33,069 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:16:35,285 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:17:11,266 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:18:23,173 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:24:12,884 - train.log - INFO - Created model with fresh parameters.
+2021-02-08 17:29:55,591 - train.log - INFO - Created model with fresh parameters.
